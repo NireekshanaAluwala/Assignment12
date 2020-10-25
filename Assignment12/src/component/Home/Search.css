@@ -1,0 +1,50 @@
+.imageContainer{
+    background:url('https://i.ibb.co/txXHcmp/food-wallpaper.png');
+    border-style:solid;
+    border-color:white;
+    border-width:30px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#logo{
+    text-align:center;
+    color:red;
+    font-weight:bold;
+    font-size:90px;
+    background:white;
+    height:120px;
+    width:120px;
+    margin:auto;
+    border-radius:50%;
+    margin-top:80px;
+    margin-bottom: 80px;
+}
+
+.heading{
+    text-align:center;
+    color:white;
+    font-size:36px;
+}
+
+.locationSelector{
+    margin-top:20px;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.locationDropDown{
+    width:250px;
+    height:60px;
+    border-radius:2%;
+    font-size:20px;
+    border:none;
+}
+
+.restinput{
+    width:400px;
+    height:60px;
+    border-radius:2%;
+    font-size:20px;
+    border:none;
+}

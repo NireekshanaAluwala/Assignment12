@@ -1,0 +1,87 @@
+React is a frontend Framework help to build single page application 
+
+SPA> Single Page Application
+
+https://medium.com/techmagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
+
+//Step to setup react 
+>npm one global package
+--------------------
+npm i -g create-react-app 
+
+
+----------When you want to generate app---------------
+> go inside the folder where you want to generate app
+> create-react-app firstapp
+
+---------Run the application--------
+> go inside the app folder
+> npm start
+> http://localhost:3000
+
+React     > React is the main lib
+React-DOM > Help to render the content
+React-Script > Help to run the application
+
+function add(a,b){
+    var out = [a,b]
+    return out
+}
+
+add(1,2)
+2
+
+/////////////////////////////
+Type Of Component
+//////////////////////
+Class Component
+> Logical Component
+> Any logic or api call will happen in class component
+> state managmenent can happen here
+> heavy as compare to function 
+
+Functional
+> Dumb Component
+> We use them for display purpose
+> State cannot be manage here
+
+State 
+> Act like a local variable
+> Every class component can have its own State
+> State value can be updated
+> Any data interaction happen in app will be through State
+
+Props
+> Way to Transfer the data
+> VaLUE OF PROPS CANNOT updated
+> Props can be use in both funtional and class component
+
+props can pass data from parent to child & Child to parent
+but it should be nested
+
+
+npm i react-router-dom
+
+Port for Mongo Altas DB Access 
+>0.0.0.0/0
+
+
+Assignement 10 
+Page listing page without api with static data
+
+Assignement 11
+Call Api in page and load dynamic data
+
+
+http://developerfunnelrestapi.herokuapp.com/restaurantList/1?cuisine=3
+http://developerfunnelrestapi.herokuapp.com/restaurantList/1?hcost=200&lcost=500
+
+
+parent to child  => props
+child to parent => props with function 
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
